@@ -8,7 +8,8 @@ This guide will walk you through the process of automating the deployment of you
     - Navigate to your Azure App Service where you want to deploy your Spring Boot application.
     - In the left-hand menu, under `Settings`, click on `Deployment Center`.
     - Choose the source as GitHub and follow the prompts to authenticate and select your repository.
-### This is a yml file config using gradle instead Maven to run project:
+    - .github/workflows/azure-deploy.yml`. This will define your GitHub Actions workflow.
+### This is a yml file config using Gradle instead Maven to run project:
 ```shell
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
