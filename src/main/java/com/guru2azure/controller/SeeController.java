@@ -12,6 +12,6 @@ public class SeeController {
 
     @GetMapping("hello")
     public ResponseEntity<String> welcomeGithubAction(){
-       return new ResponseEntity<>("Hello spring to azure by github actions!", HttpStatus.OK);
+       return new ResponseEntity<>("Hello Spring to Azure by Github Actions!", HttpStatus.OK);
     }
 }
